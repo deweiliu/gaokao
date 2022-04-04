@@ -4,7 +4,7 @@ const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'June 7, 2022 9:00:00',
+  birthdate: 'June 7, 2020 9:00:00',
   name: 'Darlene'
 };
 
@@ -50,14 +50,17 @@ x = setInterval(function() {
     opts = {
       strings: ['太棒了！1914班小朋友们!',
        '你们完成了人生中最伟大的事情', 
-       '我在大学等你哦',
-       '作为梧高的学长，我无偿免费提供选学校，专业和未来就业前景的建议',
-       '联系我的电子邮箱 WUGAO@DLIU.COM',
-       '访问我的主页了解我 WWW.DLIU.COM',
+       '作为梧高的学长，我在大学等你哦',
+       '我免费提供选学校',
+       '专业和未来就业前景的建议',
+       '联系我的电子邮箱',
+       'WUGAO@DLIU.COM',
+       '访问我的主页了解我',
+       'WWW.DLIU.COM',
       ],
-      charSize: 30,
-      charSpacing: 35,
-      lineHeight: 40,
+      charSize: screen.width/30,
+      charSpacing: screen.width/20,
+      lineHeight: screen.height/20,
 
       cx: w / 2,
       cy: h / 2,
