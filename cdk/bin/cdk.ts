@@ -6,7 +6,7 @@ import { CdkStack } from '../lib/main-stack';
 const app = new cdk.App();
 new CdkStack(app, 'Gaokao', {
   maxAzs: 2,
-  appId: 5,
+  appId: 11,
   domain: 'dliu.com',
   dnsRecord: 'gaokao',
   appName: 'gaokao',
