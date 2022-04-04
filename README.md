@@ -1,5 +1,4 @@
-# Birthday Card For Chen Yiyu
-🎂 
-Birthday Card
+# Gaokao
 
-[chenyiyu.dliu.com](http://chenyiyu.dliu.com)
+Gaokao countdown
+[gaokao.dliu.com](https://gaokao.dliu.com)
