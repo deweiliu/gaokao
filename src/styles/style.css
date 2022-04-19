@@ -27,7 +27,6 @@ canvas {
 }
 body {
   background: #ffffff;
-  overflow: hidden;
 }
 .container {
   color: rgba(55, 59, 65, 0.8);
